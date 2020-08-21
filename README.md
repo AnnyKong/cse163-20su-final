@@ -19,7 +19,7 @@ Make sure you have Python with version 3.7 or higher. Do `pip install` for the f
 ### Research Question 1
 
 
-### Research Question 2 ([Results](https://annykong.github.io/cse163-20su-final/))
+### Research Question 2 ([Results Webpage](https://annykong.github.io/cse163-20su-final/))
 1. Clone the repo with HTTPS or SSH
 ```
 git clone https://github.com/AnnyKong/cse163-20su-final.git
