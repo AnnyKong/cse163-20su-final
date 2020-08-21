@@ -7,7 +7,7 @@ covid-19 plots and explores the relationship between different
 countries/regions and the number of confirmed/deaths/recovered
 cases.
 Original file is located at
-    https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F
+    https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing
 """
 
 import pandas as pd
