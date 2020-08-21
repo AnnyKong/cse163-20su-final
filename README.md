@@ -1,4 +1,4 @@
-# COVID-19 Trend Prediction and Analysis 
+# COVID-19 Trend Prediction and Analysis
   CSE163 20SU Final Project at UW
 
 As the health crisis triggered by the pandemic COVID-19 keeps the world in its grasp, most people are forced to work from home as well as to practice social distancing. Our project could potentially foretell how future pandemics are going. It will focus on how different government policies affect the spread of this virus. We will visualize the virus spread with respect to different regions/countries and analyze how the virus spread is correlated to different geolocations, and see how the projection of infected cases will be like in the near future. 
@@ -19,7 +19,7 @@ Make sure you have Python with version 3.7 or higher. Do `pip install` for the f
 ### Research Question 1
 
 
-### Research Question 2
+### Research Question 2 ([Results](https://annykong.github.io/cse163-20su-final/))
 1. Clone the repo with HTTPS or SSH
 ```
 git clone https://github.com/AnnyKong/cse163-20su-final.git
