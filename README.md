@@ -23,6 +23,19 @@ Make sure you have Python with version 3.7 or higher. Do `pip install` for the f
 
 ## How to reproduce our results
 
+1. Clone the repo with HTTPS or SSH
+
+```
+git clone https://github.com/AnnyKong/cse163-20su-final.git
+cd cse163-20su-final
+```
+
+2. Unzip preprocessed data csv file
+
+```
+unzip combined.csv.zip
+```
+
 ### Research Question 1
 
 What’s the future trend of COVID-19 in each country?
@@ -39,23 +52,6 @@ What’s the future trend of COVID-19 in each country?
 
 ```
 
-### Research Question 2 ([Results Webpage](https://annykong.github.io/cse163-20su-final/))
-
-By data visualization, what can we say about how different regions (countries) may affect the number of confirmed, deaths, and recovered cases?
-
-1. Clone the repo with HTTPS or SSH
-
-```
-git clone https://github.com/AnnyKong/cse163-20su-final.git
-cd cse163-20su-final
-```
-
-2. Unzip preprocessed data csv file
-
-```
-unzip combined.csv.zip
-```
-
 ### Research Question 1 ([Results](https://annykong.github.io/cse163-20su-final/part1))
 
 1. Run the following Python script and see results in `results/part1`
@@ -65,6 +61,8 @@ python3 cse163_final_part1.py
 ```
 
 ### Research Question 2 ([Results](https://annykong.github.io/cse163-20su-final/part2))
+
+By data visualization, what can we say about how different regions (countries) may affect the number of confirmed, deaths, and recovered cases?
 
 1. Run the following Python script and see results in `results/`
 
