@@ -17,9 +17,20 @@ Make sure you have Python with version 3.7 or higher. Do `pip install` for the f
 
 ## How to reproduce our results
 ### Research Question 1
+What’s the future trend of COVID-19 in each country?
 
+1.
+```
+
+```
+2.
+```
+
+```
 
 ### Research Question 2 ([Results Webpage](https://annykong.github.io/cse163-20su-final/))
+By data visualization, what can we say about how different regions (countries) may affect the number of confirmed, deaths, and recovered cases?
+
 1. Clone the repo with HTTPS or SSH
 ```
 git clone https://github.com/AnnyKong/cse163-20su-final.git
@@ -36,3 +47,13 @@ python3 cse163_final_part2.py
 (OPTIONAL) 4. You may want to checkout pre-run output at [cse163_final_part2.ipynb](cse163_final_part2.ipynb) or [Colab script for development purposes](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing)
 
 ### Research Question 3
+How do infection rate and fatality rate of COVID-19 relate to regions’ income level?
+
+1.
+```
+
+```
+2.
+```
+
+```
