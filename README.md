@@ -40,13 +40,8 @@ unzip combined.csv.zip
 
 What’s the future trend of COVID-19 in each country?
 
-1.
-
-```
-Our result shows that if every country does not enforce more health guidelines,
-the number will continue to grow according to the polynomial model, with 83% of accuracy.
-
-```
+**Our result shows that if every country does not enforce more health guidelines,
+the number will continue to grow according to the polynomial model, with 83% of accuracy.**
 
 1. Run the following Python script and see results in `results/part1`
 
