@@ -1,4 +1,5 @@
-# cse163-20su-final
+# COVID-19 Trend Prediction and Analysis
+CSE163 20SU Final Project at UW
 ## Authors
 - Anny Kong
 - Forrest Jiang
