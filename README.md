@@ -36,7 +36,7 @@ cd cse163-20su-final
 unzip combined.csv.zip
 ```
 
-### Research Question 1
+### Research Question 1 ([Results](https://github.com/AnnyKong/cse163-20su-final/tree/master/results/part1))
 
 What’s the future trend of COVID-19 in each country?
 
@@ -46,8 +46,6 @@ What’s the future trend of COVID-19 in each country?
 Our result shows that if every country does not enforce more health guidelines, the number will continue to grow according to the polynomial model, with 83% of accuracy.
 
 ```
-
-### Research Question 1 ([Results](https://github.com/AnnyKong/cse163-20su-final/tree/master/results/part1))
 
 1. Run the following Python script and see results in `results/part1`
 
