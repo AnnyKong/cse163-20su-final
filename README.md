@@ -41,7 +41,7 @@ unzip combined.csv.zip
 What’s the future trend of COVID-19 in each country?
 
 **Our result shows that if every country does not enforce more health guidelines,
-the number will continue to grow according to the polynomial model, with 83% of accuracy.**
+the number will continue to grow according to the polynomial model, with 83% accuracy.**
 
 1. Run the following Python script and see results in `results/part1`
 
@@ -53,13 +53,17 @@ python3 cse163_final_part1.py
 
 By data visualization, what can we say about how different regions (countries) may affect the number of confirmed, deaths, and recovered cases?
 
+```
+
+```
+
 1. Run the following Python script and see results in `results/`
 
 ```
 python3 cse163_final_part2.py
 ```
 
-(OPTIONAL) 4. You may want to checkout pre-run output at [cse163_final_part2.ipynb](cse163_final_part2.ipynb) or [Colab script for development purposes](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing)
+(OPTIONAL) 2. You may want to checkout pre-run output at [cse163_final_part2.ipynb](cse163_final_part2.ipynb) or [Colab script for development purposes](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing)
 
 ### Research Question 3
 

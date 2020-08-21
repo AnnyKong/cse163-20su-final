@@ -43,7 +43,7 @@ def read_data():
     '''
     read combined file and return a dataframe object
     '''
-    df = pd.read_csv('csse_covid_19_daily_reports/combined.csv')
+    df = pd.read_csv('combined.csv')
     df = df.astype({'Province_State': str, 'Country_Region': str,
                     'Last_Update': 'datetime64', 'Admin2': str,
                     'Combined_Key': str})
