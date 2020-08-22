@@ -43,7 +43,7 @@ What’s the future trend of COVID-19 in each country?
 **Our result shows that if every country does not enforce more health guidelines,
 the number will continue to grow according to the polynomial model, with 83% accuracy.**
 
-1. Run the following Python script and see results in `results/part1`
+3.1. Run the following Python script and see results in `results/part1`
 
 ```
 python3 cse163_final_part1.py
@@ -53,11 +53,9 @@ python3 cse163_final_part1.py
 
 By data visualization, what can we say about how different regions (countries) may affect the number of confirmed, deaths, and recovered cases?
 
-```
 
-```
 
-1. Run the following Python script and see results in `results/`
+3.2. Run the following Python script and see results in `results/`
 
 ```
 python3 cse163_final_part2.py
@@ -69,13 +67,7 @@ python3 cse163_final_part2.py
 
 How do infection rate and fatality rate of COVID-19 relate to regions’ income level?
 
-1.
-
-```
-
-```
-
-2.
+3.3.
 
 ```
 
