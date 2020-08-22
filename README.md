@@ -53,6 +53,7 @@ python3 cse163_final_part1.py
 
 By data visualization, what can we say about how different regions (countries) may affect the number of confirmed, deaths, and recovered cases?
 
+**The month is a large factor in the relationship with the current Covid-19 condition of different regions. From February to August, Covid-19 has spread all over the world. Though for those neighboring affected countries/regions, they are more likely to be affected, there isn’t evidence for a causal relationship between longitude/latitude and the number of cases.**
 
 
 3.2. Run the following Python script and see results in `results/` (We also included a results gallery for RQ2 in `docs/`)
@@ -60,7 +61,12 @@ By data visualization, what can we say about how different regions (countries) m
 ```
 python3 research-question-2.py
 ```
-(OPTIONAL) 4.2. You may want to checkout pre-run output at [research-question-2.ipynb](research-question-2.ipynb) or [Colab script](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing) which was used for development and testing purposes.
+4.2. Run the following Python test script and see test results in `test_results/`
+
+```
+python3 test_research-question-2.py
+```
+(OPTIONAL) 5.2. You may want to checkout pre-run output at [research-question-2.ipynb](research-question-2.ipynb) or [Colab script](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing) which was used for development and testing purposes.
 
 
 ### Research Question 3
