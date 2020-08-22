@@ -210,7 +210,7 @@ def plot_graph(x, y, name):
     plt.ylabel('Confirmed cases')
     plt.plot(x, y, label='prediction')
     plt.legend()
-    plt.savefig('results/part1'+name+'.png')
+    plt.savefig('results/part1/'+name+'.png')
     plt.clf()
 
 
@@ -227,7 +227,27 @@ def tune_param_poly(df1):
     plt.xlabel('degree')
     plt.ylabel('accuracy')
     plt.plot(np.arange(1, 8), results, 'bo')
-    plt.savefig('degree_vs_accuracy.png')
+    plt.savefig('results/part1/'+'degree_vs_accuracy.png')
+
+
+def extrpolate(df, country, start_day, end_day):
+    '''
+    takes a dataframe, country name, start_day(int) and end_day(int)
+    '''
+    mask = df[df['Country_Region'] == country]
+    x_train = mask['Day'].values.reshape(-1, 1)
+    y_train = mask['Confirmed'].values.reshape(-1, 1)
+    poly_model = make_pipeline(
+        PolynomialFeatures(degree=5),  LinearRegression())
+    poly_model.fit(x_train, y_train)
+    x_predict = np.arange(start_day, end_day+1).reshape(-1, 1)
+    prediction = poly_model.predict(x_predict)
+    plt.plot(x_predict, prediction)
+    plt.xlabel('Day')
+    plt.title(country+' prediction')
+    plt.ylabel('Confirmed cases')
+    plt.savefig('results/part1/'+country+'_prediction')
+    plt.clf()
 
 
 def main():
@@ -244,6 +264,8 @@ def main():
     print('Average Score using polynomial regression: ',
           polynimial_result['Score'].mean())
     plot_India_US_poly(df1)
+    extrpolate(df1, 'India', 200, 350)
+    extrpolate(df1, 'US', 200, 350)
 
 
 if __name__ == "__main__":
