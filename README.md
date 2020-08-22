@@ -49,7 +49,7 @@ the number will continue to grow according to the polynomial model, with 83% acc
 python3 cse163_final_part1.py
 ```
 
-### Research Question 2 ([Results](https://github.com/AnnyKong/cse163-20su-final/tree/master/results))
+### Research Question 2 ([Results](https://github.com/AnnyKong/cse163-20su-final/tree/master/results)/[Results Webpage](https://annykong.github.io/cse163-20su-final/))
 
 By data visualization, what can we say about how different regions (countries) may affect the number of confirmed, deaths, and recovered cases?
 
