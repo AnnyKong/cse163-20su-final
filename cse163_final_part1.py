@@ -230,7 +230,7 @@ def tune_param_poly(df1):
     plt.savefig('results/part1/'+'degree_vs_accuracy.png')
 
 
-def extrpolate(df, country, start_day, end_day):
+def extrapolate(df, country, start_day, end_day):
     '''
     takes a dataframe, country name, start_day(int) and end_day(int)
     plot Day Vs Confirmed Cases in this day range for the given country.
@@ -265,8 +265,8 @@ def main():
     print('Average Score using polynomial regression: ',
           polynimial_result['Score'].mean())
     plot_India_US_poly(df1)
-    extrpolate(df1, 'India', 200, 350)
-    extrpolate(df1, 'US', 200, 350)
+    extrapolate(df1, 'India', 200, 350)
+    extrapolate(df1, 'US', 200, 350)
 
 
 if __name__ == "__main__":
