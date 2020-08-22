@@ -233,7 +233,8 @@ def tune_param_poly(df1):
 def extrapolate(df, country, start_day, end_day):
     '''
     takes a dataframe, country name, start_day(int) and end_day(int)
-    plot Day Vs Confirmed Cases in this day range for the given country.
+    plot the prediction using polynomial regression
+    Day Vs Confirmed Cases in this day range for the given country.
     '''
     mask = df[df['Country_Region'] == country]
     x_train = mask['Day'].values.reshape(-1, 1)
