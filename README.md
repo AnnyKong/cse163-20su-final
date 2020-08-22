@@ -61,7 +61,7 @@ By data visualization, what can we say about how different regions (countries) m
 python3 cse163_final_part2.py
 ```
 
-(OPTIONAL) 4.2. You may want to checkout pre-run output at [cse163_final_part2.ipynb](cse163_final_part2.ipynb) or [Colab script](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing) for development and testing purposes.
+(OPTIONAL) 4.2. You may want to checkout pre-run output at [cse163_final_part2.ipynb](cse163_final_part2.ipynb) or [Colab script](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing) which was used for development and testing purposes.
 
 ### Research Question 3
 
