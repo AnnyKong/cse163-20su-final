@@ -55,7 +55,7 @@ By data visualization, what can we say about how different regions (countries) m
 
 
 
-3.2. Run the following Python script and see results in `results/`
+3.2. Run the following Python script and see results in `results/` (We also included a results gallery for RQ2 in `docs/`)
 
 ```
 python3 cse163_final_part2.py
