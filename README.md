@@ -67,14 +67,3 @@ python3 research_question_2.py
 python3 test_research_question_2.py
 ```
 (OPTIONAL) 5.2. You may want to checkout pre-run output at [research_question_2.ipynb](research_question_2.ipynb) or [Colab script](https://colab.research.google.com/drive/1BXoGeS60R95IVPccp0SnrQYq6nESFs4F?usp=sharing) which was used for development and testing purposes.
-
-
-### Research Question 3
-
-How do infection rate and fatality rate of COVID-19 relate to regions’ income level?
-
-3.3.
-
-```
-
-```
